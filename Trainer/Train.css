@@ -1,0 +1,178 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header .nav ul li a {
+    color: #fff; /* Set link text color to white */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+header .nav ul li a:hover {
+    background: #555; /* Add a lighter hover background */
+    border-radius: 5px;
+}
+
+header .login ul {
+    list-style: none;
+}
+
+header .login ul li a {
+    color: #fff; /* Set text color to white */
+    text-decoration: none;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header .login ul li a:hover {
+    color: red;
+}
+
+/* Dashboard Title */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #1e1e2f;
+}
+
+/* Section Titles */
+h2 {
+    margin: 20px 0 10px;
+    font-size: 2rem;
+    color: #1e1e2f;
+    border-bottom: 2px solid #ff5a5f;
+    display: inline-block;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff5a5f;
+}
+
+form button {
+    background: #1e1e2f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #4a4a6a;
+}
+
+/* Plan List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: black;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul li h3 {
+    font-size: 1.5rem;
+    color: #1e1e2f;
+    margin-bottom: 10px;
+}
+
+ul li p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+ul li form {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li form input, ul li form textarea {
+    margin-bottom: 10px;
+}
+
+ul li form button {
+    width: auto;
+    align-self: flex-start;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #1e1e2f;
+    color: #fff;
+}

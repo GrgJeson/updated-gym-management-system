@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+body {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../backgorund.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+.form-container {
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid ;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #4cae4c;
+}
+h2{
+    padding: 5px;
+    font-size:14px;
+    font:sans-serif
+}
+
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: transparent; 
+ padding: 10px 20px;
+ margin:-570px 0px 0px 0px;
+ color: white;
+ font-size: 1.5rem;
+
+ 
+}
+
+.logo {
+ flex: 1; 
+ margin-right: 755px;
+}
+
+.logo a {
+ text-decoration: none;
+ color: white;
+ font-size: 1.5rem;
+ display: flex;
+
+}
+
+.logo img {
+ margin-right: 10px;
+ height: 40px;
+}
+img {
+ display: block; 
+ visibility: visible;
+}
+
+
+.nav {
+ display: flex;
+ flex: 2;
+ justify-content: center; 
+}
+
+.nav ul {
+ display: flex;
+ list-style: none;
+ gap: 20px;
+ flex-direction: row;
+ 
+}
+
+.nav ul li a {
+ text-decoration: none;
+ color: white;
+ font-size: 1rem;
+ transition: color 0.3s ease;
+
+}
+
+.nav ul li a:hover {
+ color: #FFD700; 
+}
+
+
+
+.nav__button {
+ text-decoration: none;
+ color: white;
+ /* background-color: #FFD700;  */
+ padding: 5px 15px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+.nav__button:hover {
+ background-color: #FFC107; 
+}
+span{
+    font-size: 0.75rem;
+    color: aqua;
+
+}
+h3{
+    font-size: 0.75rem;
+    color: aliceblue;
+}

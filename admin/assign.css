@@ -1,0 +1,213 @@
+
+
+/* Main Content */
+main {
+    padding: 30px 20px;
+    margin: 20px auto;
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.form-group select:focus {
+    border-color: #4CAF50;
+    background-color: #ffffff;
+    outline: none;
+}
+
+/* Button */
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+/* Success/Error Message Styling */
+.success, .error {
+    padding: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.success {
+    background-color: #4CAF50;
+}
+
+.error {
+    background-color: #f44336;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    .form-group button {
+        width: 100%;
+    }
+
+    header .logo a {
+        font-size: 24px;
+    }
+
+    .nav ul li {
+        margin: 0 10px;
+    }
+
+    .nav ul li a {
+        font-size: 14px;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* Example background color */
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    flex: 1; /* Aligns the logo to the left */
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    height: 40px;
+  }
+  img {
+    display: block; 
+    visibility: visible;
+  }
+  
+  
+  .nav {
+    display: flex;
+    flex: 2;
+    justify-content: center; /* Centers the navigation items  */
+     padding-right: 200px;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+    color: #FFD700; /* Example hover color */
+  }
+  
+  
+  
+  .nav__button {
+    text-decoration: none;
+    color: white;
+    background-color: #FFD700; /* Example button color */
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav__button:hover {
+    background-color: #FFC107; /* Example hover effect */
+  }
+  
+  /* Login Section (if needed) */
+  .login ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .login ul li a:hover {
+    color: #FFD700;
+  }
+  

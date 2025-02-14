@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.trainer-details {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.trainer-details h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.trainer-details p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.trainer-details p strong {
+    color: #333;
+}
+
+.trainer-details p:last-child {
+    margin-bottom: 0;
+}
+
+.trainer-details p.no-trainer {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+}

@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent; /* Example background color */
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    flex: 1; /* Aligns the logo to the left */
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    height: 40px;
+  }
+  img {
+    display: block; 
+    visibility: visible;
+  }
+  
+  
+  .nav {
+    display: flex;
+    flex: 2;
+    justify-content: center; /* Centers the navigation items  */
+     padding-right: 200px;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+    color: #FFD700; /* Example hover color */
+  }
+  
+  
+  
+  .nav__button {
+    text-decoration: none;
+    color: white;
+    background-color: #FFD700; /* Example button color */
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav__button:hover {
+    background-color: #FFC107; /* Example hover effect */
+  }
+  
+  /* Login Section (if needed) */
+  .login ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .login ul li a:hover {
+    color: #FFD700;
+  }
+  
+
+/* Page Title */
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Summary Section */
+.summary {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.summary h2 {
+    font-size: 24px;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.summary ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary ul li:last-child {
+    border-bottom: none;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #2980b9;
+    color: #fff;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f1f8fe;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button Styles */
+button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+button[name="action"][value="reject"] {
+    background-color: #e74c3c;
+}
+
+button[name="action"][value="reject"]:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    table th,
+    table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
